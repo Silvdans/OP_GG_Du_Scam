@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>OP_GG</title>
+  </head>
+  <body>
+    Bienvenue sur OP_GG
+    {% for champ in champions%}
+        <li>{{champ.name}}</li>
+        <img src="{{champ.image}}" alt="My image">
+    {% endfor %}
+  </body>
+</html>
